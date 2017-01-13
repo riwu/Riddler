@@ -1,0 +1,344 @@
+# depslib dependency file v1.0
+1393482154 source:c:\users\brandon\desktop\riddler\main.cpp
+	<Windows.h>
+	<iostream>
+	"Riddler.hpp"
+
+1393291210 source:c:\users\brandon\desktop\riddler\psinfo.cpp
+	"PSInfo.hpp"
+
+1393552308 c:\users\brandon\desktop\riddler\psinfo.hpp
+	<Windows.h>
+	<cstdint>
+
+1393552239 source:c:\users\brandon\desktop\riddler\riddler.cpp
+	"Riddler.hpp"
+
+1393552217 c:\users\brandon\desktop\riddler\riddler.hpp
+	<winternl.h>
+	<Windows.h>
+	<TlHelp32.h>
+	<algorithm>
+	<string>
+	<cstdint>
+	<vector>
+	<sstream>
+	<bitset>
+	<cstring>
+	"GC.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	"Threading.hpp"
+	"Locking.hpp"
+	"ImageManager.hpp"
+	"Async.hpp"
+	"jni.h"
+
+1393172683 c:\users\brandon\desktop\riddler\gc.hpp
+	<vector>
+	<memory>
+	<algorithm>
+	<cstdint>
+	"PSObject.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	<functional>
+
+1393280477 c:\users\brandon\desktop\riddler\psobject.hpp
+	<cstdint>
+	<iterator>
+
+1393289256 c:\users\brandon\desktop\riddler\psstring.hpp
+	"PSObject.hpp"
+	<string>
+	<stdexcept>
+
+1393254799 c:\users\brandon\desktop\riddler\psarray.hpp
+	"PSObject.hpp"
+	<cstdint>
+	<vector>
+	<initializer_list>
+
+1392241520 c:\program files (x86)\java\jdk1.7.0_51\include\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1392241520 c:\program files (x86)\java\jdk1.7.0_51\include\win32\jni_md.h
+
+1393462955 source:c:\users\brandon\desktop\riddler\images.cpp
+	"Images.hpp"
+
+1393462378 c:\users\brandon\desktop\riddler\images.hpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<stdexcept>
+	<windows.h>
+
+1393203654 source:c:\users\brandon\desktop\riddler\locking.cpp
+	"Locking.hpp"
+
+1393203654 c:\users\brandon\desktop\riddler\locking.hpp
+	<mutex>
+	<map>
+	<memory>
+
+1393484472 source:c:\users\brandon\desktop\riddler\threading.cpp
+	"Threading.hpp"
+
+1393203654 c:\users\brandon\desktop\riddler\threading.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+
+1393462380 source:c:\users\brandon\desktop\riddler\imagemanager.cpp
+	"ImageManager.hpp"
+
+1393462377 c:\users\brandon\desktop\riddler\imagemanager.hpp
+	"Images.hpp"
+	<map>
+	<memory>
+
+1393482857 source:c:\users\brandon\desktop\riddler\async.cpp
+	"Async.hpp"
+
+1393481957 c:\users\brandon\desktop\riddler\async.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+	<future>
+
+1397268285 source:c:\users\brandon\desktop\code\riddler\async.cpp
+	"Async.hpp"
+
+1397265668 c:\users\brandon\desktop\code\riddler\async.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+	<future>
+
+1397322975 source:c:\users\brandon\desktop\code\riddler\imagemanager.cpp
+	"ImageManager.hpp"
+
+1397322597 c:\users\brandon\desktop\code\riddler\imagemanager.hpp
+	"Images.hpp"
+	<map>
+	<memory>
+
+1397322522 c:\users\brandon\desktop\code\riddler\images.hpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<stdexcept>
+	<windows.h>
+
+1397324381 source:c:\users\brandon\desktop\code\riddler\images.cpp
+	"Images.hpp"
+
+1397268226 source:c:\users\brandon\desktop\code\riddler\locking.cpp
+	"Locking.hpp"
+
+1397265690 c:\users\brandon\desktop\code\riddler\locking.hpp
+	<mutex>
+	<map>
+	<memory>
+
+1397267541 source:c:\users\brandon\desktop\code\riddler\main.cpp
+	<Windows.h>
+	<iostream>
+	<sstream>
+	"Riddler.hpp"
+
+1397265209 c:\users\brandon\desktop\code\riddler\riddler.hpp
+	<winternl.h>
+	<Windows.h>
+	<TlHelp32.h>
+	<algorithm>
+	<string>
+	<cstdint>
+	<vector>
+	<sstream>
+	<bitset>
+	<cstring>
+	"GC.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	"Threading.hpp"
+	"Locking.hpp"
+	"ImageManager.hpp"
+	"Async.hpp"
+
+1397267918 c:\users\brandon\desktop\code\riddler\gc.hpp
+	<vector>
+	<memory>
+	<algorithm>
+	<cstdint>
+	"PSObject.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	<functional>
+
+1393284077 c:\users\brandon\desktop\code\riddler\psobject.hpp
+	<cstdint>
+	<iterator>
+
+1393292856 c:\users\brandon\desktop\code\riddler\psstring.hpp
+	"PSObject.hpp"
+	<string>
+	<stdexcept>
+
+1393258399 c:\users\brandon\desktop\code\riddler\psarray.hpp
+	"PSObject.hpp"
+	<cstdint>
+	<vector>
+	<initializer_list>
+
+1397265497 c:\users\brandon\desktop\code\riddler\threading.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+
+1393294810 source:c:\users\brandon\desktop\code\riddler\psinfo.cpp
+	"PSInfo.hpp"
+
+1396728371 c:\users\brandon\desktop\code\riddler\psinfo.hpp
+	<Windows.h>
+	<cstdint>
+
+1397322662 source:c:\users\brandon\desktop\code\riddler\riddler.cpp
+	"Riddler.hpp"
+
+1397268201 source:c:\users\brandon\desktop\code\riddler\threading.cpp
+	"Threading.hpp"
+
+1441045858 source:c:\users\kira\desktop\riddler\async.cpp
+	"Async.hpp"
+
+1441045858 c:\users\kira\desktop\riddler\async.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+	<future>
+
+1441045858 source:c:\users\kira\desktop\riddler\imagemanager.cpp
+	"ImageManager.hpp"
+
+1441045858 c:\users\kira\desktop\riddler\imagemanager.hpp
+	"Images.hpp"
+	<map>
+	<memory>
+
+1441045858 c:\users\kira\desktop\riddler\images.hpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<stdexcept>
+	<windows.h>
+
+1441045858 source:c:\users\kira\desktop\riddler\images.cpp
+	"Images.hpp"
+
+1441045858 source:c:\users\kira\desktop\riddler\locking.cpp
+	"Locking.hpp"
+
+1441045858 c:\users\kira\desktop\riddler\locking.hpp
+	<mutex>
+	<map>
+	<memory>
+
+1441045858 source:c:\users\kira\desktop\riddler\main.cpp
+	<Windows.h>
+	<iostream>
+	<sstream>
+	"Riddler.hpp"
+
+1441046115 c:\users\kira\desktop\riddler\riddler.hpp
+	<winternl.h>
+	<Windows.h>
+	<TlHelp32.h>
+	<algorithm>
+	<string>
+	<cstdint>
+	<vector>
+	<sstream>
+	<bitset>
+	<cstring>
+	"GC.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	"Threading.hpp"
+	"Locking.hpp"
+	"ImageManager.hpp"
+	"Async.hpp"
+
+1441045858 c:\users\kira\desktop\riddler\gc.hpp
+	<vector>
+	<memory>
+	<algorithm>
+	<cstdint>
+	"PSObject.hpp"
+	"PSString.hpp"
+	"PSArray.hpp"
+	<functional>
+
+1441045858 c:\users\kira\desktop\riddler\psobject.hpp
+	<cstdint>
+	<iterator>
+
+1441045858 c:\users\kira\desktop\riddler\psstring.hpp
+	"PSObject.hpp"
+	<string>
+	<stdexcept>
+
+1441045858 c:\users\kira\desktop\riddler\psarray.hpp
+	"PSObject.hpp"
+	<cstdint>
+	<vector>
+	<initializer_list>
+
+1441045859 c:\users\kira\desktop\riddler\threading.hpp
+	<iostream>
+	<fstream>
+	<thread>
+	<atomic>
+	<system_error>
+	<map>
+	<mutex>
+
+1441045858 source:c:\users\kira\desktop\riddler\psinfo.cpp
+	"PSInfo.hpp"
+
+1441046047 c:\users\kira\desktop\riddler\psinfo.hpp
+	<Windows.h>
+	<cstdint>
+
+1441046318 source:c:\users\kira\desktop\riddler\riddler.cpp
+	"Riddler.hpp"
+
+1441045859 source:c:\users\kira\desktop\riddler\threading.cpp
+	"Threading.hpp"
+

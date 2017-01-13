@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Riddler" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Riddler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Riddler" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-m32" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="C:/Program Files (x86)/Java/jdk1.7.0_51/include" />
+					<Add directory="C:/Program Files (x86)/Java/jdk1.7.0_51/include/win32" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-m32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Async.cpp" />
+		<Unit filename="Async.hpp" />
+		<Unit filename="GC.hpp" />
+		<Unit filename="ImageManager.cpp" />
+		<Unit filename="ImageManager.hpp" />
+		<Unit filename="Images.cpp" />
+		<Unit filename="Images.hpp" />
+		<Unit filename="Locking.cpp" />
+		<Unit filename="Locking.hpp" />
+		<Unit filename="PSArray.hpp" />
+		<Unit filename="PSInfo.cpp" />
+		<Unit filename="PSInfo.hpp" />
+		<Unit filename="PSObject.hpp" />
+		<Unit filename="PSString.hpp" />
+		<Unit filename="Riddler.cpp" />
+		<Unit filename="Riddler.hpp" />
+		<Unit filename="Threading.cpp" />
+		<Unit filename="Threading.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
